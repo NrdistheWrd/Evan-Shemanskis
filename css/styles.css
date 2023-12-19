@@ -63,7 +63,7 @@ nav li {
 
 nav a {
     padding: 2% 2%;
-    margin: 10px 15px;
+    margin-left: 15px;
     align-items: center;
     width: 17.5%;
     display: inline-block;
