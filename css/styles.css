@@ -2,7 +2,7 @@
 CSS Reset
 */
 
-body, header, nav, main, footer, img, h1, h3{
+body, header, nav, main, footer, img, h1, h3, a{
     margin: 0;
     padding: 0;
     border: 0;
@@ -16,7 +16,6 @@ html {
                 linear-gradient(336deg, #887FFF, rgba(0,0,255,0) 70.71%);
     background-repeat: no-repeat;
     background-size: 100%;
-    padding-bottom: 750px;
   }
 
 
@@ -66,7 +65,7 @@ nav a {
     padding: 3% 3%;
     margin: auto;
     align-items: center;
-    width: 20%;
+    width: 17.5%;
     display: inline-block;
     color: #20E0FF;
     text-decoration: none;
@@ -164,14 +163,18 @@ p {
 }
 
 #motive {
+    display: block;
     text-align: right;
     width: 60%;
-    margin-left: 450px  ;
+    margin-left: 400px;
+    margin-top: -400px;
 }
 
 #dunkey {
-    display: block;
-    width: 300px;
+    display: inline;
+    margin-right: 625px;
+    max-width: 300px;
+
 }
 
 .p-links{
@@ -182,4 +185,17 @@ p {
 
 #archive-h1 {
     text-align: center;
+}
+
+.class {
+    margin-bottom: px;
+}
+
+blockquote {
+    margin-right: -50px;
+    margin-top: -80px;
+}
+
+#pax {
+    margin-left: -2000px;
 }
