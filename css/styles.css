@@ -18,22 +18,14 @@ html {
     background-size: 100%;
   }
 
-
-  .logo {
-    position: relative;
-    top: 10px;
-    left:410px;
-    right:0;
-    bottom: 50;
-    margin:auto;
-  }
-
   blockquote {
     font-family: 'oswald';
     color: white;
     text-shadow: 2px 2px 2px #000000;
-    margin-left: 18px;
-    margin-top: -10px;
+    margin-right: -75px;
+    margin-top: -100px;
+    font-size: 1.25rem;
+    margin-bottom: -20px;
   }
 
 /* Style rules for body and images */
@@ -41,7 +33,7 @@ html {
 img {
     max-width: 100%;
     display: block;
-    margin-top: 15px ;
+    margin-top: 15px;
 }
 
 /* Styles for navigation */
@@ -91,7 +83,7 @@ main {
     text-align: right;
     margin-right: 25px;
     margin-top: -300px;
-    padding-bottom: 500px;
+    padding-bottom: 300px;
 }
 
 h1 {
@@ -126,27 +118,22 @@ form {
     display: block;
 }
 
-.right-side {
-    text-align: right;
-    margin-right: 40px;
-    display: inline-block;
-}
-
-#Ti2 {
-    padding: -100px;
-}
-
-
 #history {
     width: 50%;
     text-align: left;
     margin-left: 50px;
-
 }
 
 .content {
-    text-align: left;
-    display: block;
+
+    text-align: center;
+    margin: auto;
+    width: 65%;
+    margin-top: 50px;
+}
+
+#contact {
+    text-align: center;
 }
 
 .wrapper {
@@ -179,6 +166,7 @@ form {
     display: inline;
     margin-right: 625px;
     max-width: 300px;
+    border-radius: 25px;
 
 }
 
@@ -192,16 +180,15 @@ form {
     margin-bottom: px;
 }
 
-blockquote {
-    margin-right: -50px;
-    margin-top: -80px;
-}
-
 #pax {
     margin-left: -2000px;
 }
 
-#contact {
-    text-align: center;
-    margin-top: 25px;
+#Ti2 video {
+    border-radius: 25px;
+    margin-left: 475px;
+}
+
+#Ti2 p {
+    margin-left: 560px;
 }
